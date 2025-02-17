@@ -1,0 +1,124 @@
+
+.login-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #128C7E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.login-box {
+  background-color: #075E54;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.login-box h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #128C7E;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  padding: 15px;
+  background-color: #075E54;
+}
+
+#controls {
+  background-color: #075E54;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#videoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #DCF8C6;
+  min-height: calc(100vh - 180px);
+}
+
+video {
+  width: 320px;
+  height: 240px;
+  border-radius: 8px;
+  border: 2px solid #25D366;
+  background: #000;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+input {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+#callStatus {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  background-color: #075E54;
+}
+
+#fileList {
+  padding: 10px;
+  background-color: #075E54;
+  color: white;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #128C7E;
+  border-radius: 8px;
+}
+
+.file-item button {
+  padding: 4px 8px;
+  margin: 0;
+}
